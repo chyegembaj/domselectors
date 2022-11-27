@@ -1,1 +1,1 @@
-#This projects is about Document Object Model exercise. 
+#This project is about Document Object Model exercise. 
