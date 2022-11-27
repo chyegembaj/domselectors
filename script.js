@@ -1,8 +1,5 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userId");
-
-
-
 var ul = document.querySelector("ul");
 var li = document.querySelector("li");
 
@@ -33,10 +30,7 @@ function addListAfterClick(){
 	if (inputLength() > 0){
 		createListElement();
 	}
-
-
 }
-
 
 function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13){
@@ -53,8 +47,6 @@ function toggleUlElement(event) {
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress",addListAfterKeypress);
-
-
 
 ul.addEventListener("click", toggleUlElement);
 
